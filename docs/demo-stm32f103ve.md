@@ -1,10 +1,10 @@
-# stm32f405rg on-chip flash demo
+# stm32f103ve on-chip flash demo
 
 ## What
 
-KVDB  and TSDB demo on STM32F4X chip
+KVDB  and TSDB demo on STM32F10X chip
 
-- MCU: STM32F405RG
+- MCU: STM32F103VE
 - Flash Driver
   - STM32 on-chip flash
 - IO
@@ -32,4 +32,6 @@ Download the firmware to your board when build successful.
 ### Step4: check the log
 
 This demo's log will output to PC serial.
+
+> PS: Demo project code and log analysis, see: Getting Started -> [Demo details](demo-details.md)
 

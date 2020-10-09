@@ -1,8 +1,6 @@
-![](docs/_media/flashdb.png)
+# FlashDB：An ultra-lightweight embedded database
 
 [![Build Status](https://travis-ci.com/armink/FlashDB.svg?branch=master)](https://travis-ci.com/armink/FlashDB) [![license](https://img.shields.io/github/license/armink/FlashDB)](https://raw.githubusercontent.com/armink/FlashDB/master/LICENSE) 
-
-EN | [中文](README_zh.md)
 
 ## Introduction
 
@@ -69,17 +67,6 @@ Insert average: 0.37 ms, query average: 0.12 ms
 ```
 
 The above is the map file information of IAR. It can be seen that the footprint of FlashDB is very small.
-
-## How to use
-
-FlashDB provides comprehensive documentation, see: https://armink.github.io/FlashDB/#/
-
-Quick access:
-
-- [Quick Start Document](http://armink.github.io/FlashDB/#/quick-started)
-- [Porting Document](http://armink.github.io/FlashDB/#/porting)
-- [Configuration Document](http://armink.github.io/FlashDB/#/configuration)
-- [API Document](http://armink.github.io/FlashDB/#/api)
 
 ## License
 

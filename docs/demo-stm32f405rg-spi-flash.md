@@ -1,4 +1,4 @@
-# stm32f405rg on-chip flash demo
+# stm32f405rg demo
 
 ## What
 
@@ -6,11 +6,16 @@ KVDB  and TSDB demo on STM32F4X chip
 
 - MCU: STM32F405RG
 - Flash Driver
-  - STM32 on-chip flash
+  - spi flash (W25Q64) by using [SFUD](https://github.com/armink/SFUD)
 - IO
   - UART
     - TXD: PA9
     - RXD: PA10
+  - SPI
+    - CS: PB12 (software CS)
+    - SCK: PB13
+    - MISO: PB14
+    - MOSI: PB15
 
 ## How
 
@@ -33,3 +38,4 @@ Download the firmware to your board when build successful.
 
 This demo's log will output to PC serial.
 
+> PS: Demo project code and log analysis, see: Getting Started -> [Demo details](demo-details.md)
